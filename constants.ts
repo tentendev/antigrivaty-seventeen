@@ -1,5 +1,20 @@
 import { Member, UnitType } from './types';
 
+// Import local images directly to ensure Vite processes them correctly
+import scoupsImg from './images/S.COUPS.jpg';
+import jeonghanImg from './images/JEONGHAN.jpg';
+import joshuaImg from './images/JOSHUA.jpg';
+import junImg from './images/JUN.jpg';
+import hoshiImg from './images/HOSHI.jpg';
+import wonwooImg from './images/WONWOO.jpg';
+import wooziImg from './images/WOOZI.jpg';
+import the8Img from './images/The_8.jpg';
+import mingyuImg from './images/Mingyu.jpg';
+import dkImg from './images/DK.jpg';
+import seungkwanImg from './images/SEUNGKWAN.jpg';
+import vernonImg from './images/VERNON.jpg';
+import dinoImg from './images/Dino.jpg';
+
 // Using "Face the Sun" Ep.3 Ray Version concept photos to match the user's provided aesthetic (Scars, Chains, Desert/Warm Light).
 export const MEMBERS: Member[] = [
   {
@@ -9,7 +24,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1995.08.08',
     bloodType: 'AB',
     unit: UnitType.HIPHOP,
-    image: '/images/S.COUPS.jpg',
+    image: scoupsImg,
     description: 'SEVENTEEN 的總隊長兼 Hip-hop Team 隊長。擁有強大的領導能力與可靠的存在感。'
   },
   {
@@ -19,7 +34,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1995.10.04',
     bloodType: 'B',
     unit: UnitType.VOCAL,
-    image: '/images/JEONGHAN.jpg',
+    image: jeonghanImg,
     description: '團隊的天使，擁有溫柔的嗓音與細膩的情感表達。'
   },
   {
@@ -29,7 +44,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1995.12.30',
     bloodType: 'A',
     unit: UnitType.VOCAL,
-    image: '/images/JOSHUA.jpg',
+    image: joshuaImg,
     description: '來自洛杉磯的紳士，吉他演奏與甜美的歌聲是他的標誌。'
   },
   {
@@ -39,7 +54,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1996.06.10',
     bloodType: 'B',
     unit: UnitType.PERFORMANCE,
-    image: '/images/JUN.jpg',
+    image: junImg,
     description: '來自中國的成員，從小就是童星，擁有強大的舞台表現力與獨特的音色。'
   },
   {
@@ -49,7 +64,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1996.06.15',
     bloodType: 'B',
     unit: UnitType.PERFORMANCE,
-    image: '/images/HOSHI.jpg',
+    image: hoshiImg,
     description: 'Performance Team 隊長，編舞天才，舞台上的老虎，台下的倉鼠。'
   },
   {
@@ -59,7 +74,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1996.07.17',
     bloodType: 'A',
     unit: UnitType.HIPHOP,
-    image: '/images/WONWOO .jpg',
+    image: wonwooImg,
     description: '擁有低沉嗓音的 Rapper，喜愛閱讀與遊戲，具有冷峻帥氣的魅力。'
   },
   {
@@ -69,7 +84,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1996.11.22',
     bloodType: 'A',
     unit: UnitType.VOCAL,
-    image: '/images/WOOZI.jpg',
+    image: wooziImg,
     description: 'Vocal Team 隊長，SEVENTEEN 的音樂製作核心，創作了無數名曲的天才作曲家。'
   },
   {
@@ -79,7 +94,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1997.11.07',
     bloodType: 'O',
     unit: UnitType.PERFORMANCE,
-    image: '/images/The_8.jpg',
+    image: the8Img,
     description: '來自中國，擅長武術與 B-boying，時尚感敏銳，充滿藝術氣息。'
   },
   {
@@ -89,7 +104,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1997.04.06',
     bloodType: 'B',
     unit: UnitType.HIPHOP,
-    image: '/images/Mingyu.jpg',
+    image: mingyuImg,
     description: '官方門面，身材高挑，擅長料理、攝影與 Rap，是團隊中的多功能萬能手。'
   },
   {
@@ -99,7 +114,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1997.02.18',
     bloodType: 'RH-O',
     unit: UnitType.VOCAL,
-    image: '/images/DK.jpg',
+    image: dkImg,
     description: '擁有極具爆發力的高音，性格開朗幽默，是團隊中的快樂病毒。'
   },
   {
@@ -109,7 +124,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1998.01.16',
     bloodType: 'B',
     unit: UnitType.VOCAL,
-    image: '/images/SEUNGKWAN.jpg',
+    image: seungkwanImg,
     description: '主唱之一，綜藝感極強，擔任團隊的氣氛製造者與 MC 角色。'
   },
   {
@@ -119,7 +134,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1998.02.18',
     bloodType: 'A',
     unit: UnitType.HIPHOP,
-    image: '/images/VERNON.jpg',
+    image: vernonImg,
     description: '韓美混血，擁有獨特的 Rap 風格與自由奔放的靈魂。'
   },
   {
@@ -129,7 +144,7 @@ export const MEMBERS: Member[] = [
     birthDate: '1999.02.11',
     bloodType: 'A',
     unit: UnitType.PERFORMANCE,
-    image: '/images/Dino.jpg',
+    image: dinoImg,
     description: '團隊的忙內，被哥哥們寵愛的同時也是舞蹈實力超群的「K-pop 的未來」。'
   }
 ];
